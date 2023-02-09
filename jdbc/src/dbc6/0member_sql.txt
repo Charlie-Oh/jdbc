@@ -1,0 +1,26 @@
+
+CREATE TABLE member (
+  id VARCHAR2(12),
+  passwd VARCHAR2(12),
+  name VARCHAR2(12),
+  age NUMBER(3),
+  addr VARCHAR2(20),
+  email VARCHAR2(20)
+);
+
+INSERT INTO member 
+VALUES ('aaa', 'aaa', '김마리', 32, '서울시', 'a@a.com');
+
+INSERT INTO member 
+VALUES ('bbb', 'bbb', '마리오', 31, '인천시', 'b@b.com');
+
+INSERT INTO member 
+VALUES ('ccc', 'ccc', '박아지', 35, '강원도', 'c@c.com');
+
+INSERT INTO member 
+VALUES ('ddd', 'ddd', '강아지', 33, '제주시', 'd@d.com');
+
+INSERT INTO member 
+VALUES ('eee', 'eee', '고양이', 34, '수원시', 'e@e.com');
+
+COMMIT;

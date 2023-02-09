@@ -1,0 +1,11 @@
+
+CREATE TABLE pay (
+  memId VARCHAR2(12) PRIMARY KEY,
+  orderId VARCHAR2(12),
+  price NUMBER
+);
+
+CREATE TABLE orderList (
+  orderId VARCHAR2(12) PRIMARY KEY,
+  productName VARCHAR2(20)
+);
